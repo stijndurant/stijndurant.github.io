@@ -11,13 +11,24 @@
 body {font-family: Arial, sans-serif}
 .mySlides {display: none}
 </style>
+<style>
+.stmenu {
+  width: 35px;
+  height: 5px;
+  background-color: red;
+  margin: 6px 0;
+}
+</style>
 </head>
 <body>
 
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+      <div class="stmenu"></div>
+      <div class="stmenu"></div>
+      <div class="stmenu"></div></a>
     <a href="#stijn" class="w3-bar-item w3-button w3-padding-large">Stijn</a>
     <a href="#levensloop" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Levensloop</a>
     <a href="#interesses" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Interesses</a>
